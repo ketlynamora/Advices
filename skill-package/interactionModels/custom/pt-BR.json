@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "conselhos para a vida",
+      "intents": [
+        {
+          "name": "AdvicesOfTheDayIntent",
+          "samples": [
+            "conselhos para a vida",
+            "abrir conselhos para a vida",
+            "consultar conselhos para a vida",
+            "consultar conselhos",
+            "conselhos pra vida",
+            "consultar conselhos pra vida",
+            "abrir conselhos pra vida"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": ["cancelar"]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": ["ajude-me", "me ajuda", "como usar", "ajuda"]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": ["parar", "encerrar", "sair "]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "gostaria muito",
+            "sim obrigada",
+            "sim obrigado",
+            "sim por favor",
+            "por favor",
+            "claro",
+            "sim"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "não agora",
+            "nope",
+            "não",
+            "mais tarde",
+            "agora não ",
+            "não obrigada",
+            "não obrigado"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
